@@ -48,13 +48,13 @@ const Hero = () =>  {
 
               <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                 <Grid item xs={12} md={3} display="flex" justifyContent="center">
-                  <StyledButton>
+                  <StyledButton onClick={() => console.log("Download")}>
                     <ArrowCircleDownIcon />
                     <Typography>Download CV</Typography>
                   </StyledButton>
                 </Grid>
                 <Grid item xs={12} md={3} display="flex" justifyContent="center">
-                  <StyledButton>
+                  <StyledButton onClick={() => console.log("Contact")}>
                     <AlternateEmailIcon />
                     <Typography>Contact me</Typography>
                 </StyledButton>                  
